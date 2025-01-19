@@ -1,0 +1,13 @@
+@import url(styles/cabecalho.css);
+@import url(styles/consultas.css);
+
+:root {
+    --fonte-principal: "Montserrat";
+    --cor-de-fundo: #f9f7fe;
+    --cor-texto: #A3A3A3;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-de-fundo);
+}
