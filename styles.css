@@ -1,5 +1,7 @@
 @import url(styles/cabecalho.css);
 @import url(styles/consultas.css);
+@import url(styles/rodape.css);
+@import url(styles/botao-flutuante.css);
 
 :root {
     --fonte-principal: "Montserrat";
