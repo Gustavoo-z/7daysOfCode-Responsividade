@@ -62,8 +62,9 @@
 
 .contato-consultas {
     display: flex;
-    gap: 0.95em;
+    justify-content: space-between;
     text-align: center;
+    width: 100%;
 }
 
 .video-consulta {
@@ -113,4 +114,5 @@ hr {
     font-size: 14px;
     border-radius: 8px;
     padding: 1em 33.7%;
+    width: 100%;
 }
