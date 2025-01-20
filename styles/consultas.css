@@ -1,8 +1,116 @@
-.dias-consultas {
-    padding-left: 1.2em;    
+.container-consultas {
+    margin: 0 1.2em 1em 1.2em;
+    background-color: var(--branco);
+    border-radius: 8px;
 }
 
 .dia-consulta {
     font-weight: 700;
     font-size: 16px;
+    padding-left: 1.2em;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+.caixa-consultas-cima {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.info-consulta {
+    display: flex;
+    color: var(--cor-texto);
+    align-items: center;
+}
+
+.tipo-consulta {
+    padding-left: 0.5em;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.img-camera {
+    height: 10.67px;
+}
+
+.nomes-consulta {
+    margin-right: auto;
+    padding-left: 1em;
+}
+
+.nome-consulta {
+    font-size: 14px;
+    padding-bottom: 0.5em;
+}
+
+.foto-perfil-consulta {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.caixa-consultas-baixo {
+    padding: 1em;
+}
+
+.horario-consulta {
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 1em;
+}
+
+.contato-consultas {
+    display: flex;
+    gap: 0.95em;
+    text-align: center;
+}
+
+.video-consulta {
+    border-radius: 8px;
+    border: 1px solid var(--laranja);
+    background-color: var(--laranja);
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 1em;
+}
+
+.audio-consulta {
+    background-color: var(--branco);
+    color: var(--cinza);
+    border: 1px solid var(--branco-borda);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 1em;
+}
+
+hr {
+    margin: 0;
+    color: var(--cinza);
+    opacity: 10%;
+}
+
+.img-pin {
+    width: 13.33px;
+    height: 16px;
+}
+
+.contato-endereço-consultas {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.endereço-consulta {
+    background-color: var(--azul);
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 1em 33.7%;
 }

@@ -1,7 +1,7 @@
 .container-cabecalho {
     display: flex;
     align-items: center;
-    padding: 2em 1em;
+    padding: 2em 1em 0em 1em;
 }
 
 .imagem-cabecalho {

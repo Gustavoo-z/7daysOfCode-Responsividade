@@ -5,6 +5,11 @@
     --fonte-principal: "Montserrat";
     --cor-de-fundo: #f9f7fe;
     --cor-texto: #A3A3A3;
+    --cinza: #464646;
+    --branco: #FFFFFF;
+    --laranja: #FFB050;
+    --azul: #4894FF;
+    --branco-borda: #ECECEC;
 }
 
 body {
