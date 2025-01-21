@@ -2,6 +2,7 @@
     position: fixed;
     bottom: 65px;
     right: 10px;
+    z-index: 3;
 }
 
 .container-botao-flutuante a {
@@ -93,6 +94,28 @@
 
 .lista-botoes {
     display: none;
+    z-index: 3;
+}
+
+#conteudo {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    background: rgba(0,0,0,.4);
+    z-index: 1;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
 .container-botao:checked ~ .lista-botoes {
@@ -109,8 +132,4 @@
 .icone-botao-flutuante {
     display: flex;
     justify-content: center;
-}
-
-.lista-botoes {
-    display: none;
 }
