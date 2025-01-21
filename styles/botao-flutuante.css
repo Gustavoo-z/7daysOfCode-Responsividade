@@ -133,3 +133,29 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (min-width:768px) {
+    .botao-flutuante:hover {
+        transform: scale(1.1);
+    }
+
+    .consulta-local:hover {
+        transform: scale(1.1);
+    }
+
+    .consulta-video:hover {
+        transform: scale(1.1);
+    }
+
+    .texto-local::before {
+        transform: scale(1.1);
+    }
+
+    .texto-local:hover {
+        cursor: default;
+    }
+
+    .texto-video:hover {
+        cursor: default;
+    }
+}

@@ -133,16 +133,19 @@ hr {
     .consultas-hoje {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .consultas-amanha {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .consultas-quarta {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .consulta-do-dia {
@@ -167,5 +170,78 @@ hr {
 
     .ultima-consulta {
         margin-bottom: 5em;
+    }
+
+    .contato-consultas {
+        display: flex;
+        justify-content: space-around;
+        gap: 2em;
+    }
+
+    .video-consulta {
+        width: 100%;
+    }
+
+    .audio-consulta {
+        width: 100%;
+    }
+
+    .video-consulta:hover {
+        background-color: rgb(201, 154, 0);
+        border-color: rgb(201, 154, 0);
+        color: var(--branco);
+        transform: scale(1.1);
+    }
+
+    .audio-consulta:hover {
+        background-color: var(--cinza);
+        color: var(--branco);
+        transform: scale(1.1);
+    }
+
+    .endereço-consulta:hover {
+        background-color: rgb(0, 102, 255);
+        transform: scale(1.05);
+    }
+
+    .chat-consulta:hover {
+        transform: scale(1.2);
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .consulta-do-dia {
+        width: 28.88%;
+    }
+
+    .ultima-consulta-hoje {
+        margin-top: 0;
+    }
+
+    .ultima-consulta {
+        margin-bottom: 0;
+    }
+
+    .consultas-amanha {
+        row-gap: 2em;
+    }
+
+    .consultas-quarta {
+        row-gap: 2em;
+        margin-bottom: 5em;
+    }
+
+    .contato-consultas {
+        display: flex;
+        justify-content: space-around;
+        gap: 2em;
+    }
+
+    .video-consulta {
+        width: 100%;
+    }
+
+    .audio-consulta {
+        width: 100%;
     }
 }

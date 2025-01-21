@@ -26,3 +26,23 @@
     font-size: 14px;
     color: var(--cor-texto);
 }
+
+@media screen and (min-width:1440px) {
+    .container-cabecalho {
+        padding-left: 2em;
+    }
+
+    .imagem-cabecalho {
+        width: 96px;
+        height: 96px;
+        border-radius: 56px;
+    }
+
+    .titulo-cabecalho {
+        font-size: 31px;
+    }
+
+    .texto-cabecalho {
+        font-size: 18px;
+    }
+}
